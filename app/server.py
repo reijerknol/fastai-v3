@@ -9,10 +9,42 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://www.dropbox.com/s/d4of3n49kuroqdy/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Toilet paper dispenser',
+ 'bin',
+ 'binContainer',
+ 'binToilet',
+ 'binToiletWoman',
+ 'binToiletWomen',
+ 'charger',
+ 'coffeeMachine',
+ 'coffeeMachineBlack',
+ 'conferenceScreen',
+ 'conferenceTripod',
+ 'copierNew',
+ 'desk',
+ 'deskChair',
+ 'deskMonitor',
+ 'doorHandle',
+ 'doorStop',
+ 'doorstopCC',
+ 'groheTap',
+ 'jabraConference',
+ 'lamps',
+ 'locker',
+ 'negative',
+ 'paperTowelDispenser',
+ 'power_outlet_White',
+ 'power_outlet_mountedToDesk',
+ 'printerScreen',
+ 'soapDispenser',
+ 'toiletPaper',
+ 'toiletSeatCleaner',
+ 'towelDispenser',
+ 'towelDispenserPaper',
+ 'waterCooler']
 path = Path(__file__).parent
 
 app = Starlette()
